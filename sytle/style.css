@@ -1,0 +1,132 @@
+/* Estilos Básicos */
+body {
+  margin: 0px;
+  background: rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  height: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Posicionamento */
+.header-container {
+  position: fixed;
+  display: grid;
+  top: 0;
+  left: 0;
+  background: #a0c8b4;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  width: 100%;
+  max-height: 100%;
+}
+.zap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 50%;
+}
+
+.header-logo {
+  display: grid;
+  justify-content: center;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.header-right {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 25px;
+  padding-right: 50%;
+}
+
+.banner {
+  margin: 0px;
+  padding-top: 40px;
+  position: inherit;
+  aspect-ratio: auto 1920 / 500;
+ 
+  align-items: flex-start;
+  width: 100%;
+
+}
+
+.info {
+  padding: 5px;
+  margin: 0px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+#i1{
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+#i2{
+
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+#i3{
+  display: flex;
+  align-items: center;
+  gap: 10px
+}#i4{
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
+
+/* Colorização */
+.search {
+  transition: 0.3s;
+}
+.search:hover {
+  opacity: 0.5;
+  transform: scale(1.15);
+}
+.user {
+  transition: 0.3s;
+}
+.user:hover {
+  opacity: 0.5;
+  transform: scale(1.15);
+}
+.contact {
+  transition: 0.3s;
+}
+.contact:hover {
+  opacity: 0.5;
+  transform: scale(1.15);
+}
+.checkout {
+  transition: 0.3s;
+}
+.checkout:hover {
+  opacity: 0.5;
+  transform: scale(1.15);
+}
+
+.zap {
+  transition: 0.3s;
+  color: #fff;
+}
+.zap:hover {
+  opacity: 0.4;
+  transform: scale(1.03);
+}
